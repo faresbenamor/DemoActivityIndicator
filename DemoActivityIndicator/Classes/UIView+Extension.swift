@@ -133,7 +133,7 @@ public extension UIView {
             
             let label:UILabel = UILabel(frame: CGRect.zero)
             label.translatesAutoresizingMaskIntoConstraints = false
-            label.font = UIFont.systemFont(ofSize: 15.0)
+            label.font = UIFont(name: "Avenir-Medium", size: 15.0)
             label.text = withMessage
             label.numberOfLines = 2
             label.textAlignment = .center
